@@ -1,0 +1,31 @@
+{
+  "model": "C:\\Users\\TUYEN PC\\Downloads\\CPVpj\\best.pt",
+  "data": "C:\\Users\\TUYEN PC\\Downloads\\CPVpj\\data_3class_with_test\\data.yaml",
+  "split": "test",
+  "imgsz": 640,
+  "precision": 0.8937434103518372,
+  "recall": 0.8660759544886768,
+  "map50": 0.9301955225880091,
+  "map50_95": 0.5714045364319875,
+  "class_metrics": [
+    {
+      "class_id": 0,
+      "class_name": "helmet",
+      "map50": 0.9107125362857003,
+      "map50_95": 0.5643173829060874
+    },
+    {
+      "class_id": 1,
+      "class_name": "no_helmet",
+      "map50": 0.9207925711541828,
+      "map50_95": 0.5154791987946432
+    },
+    {
+      "class_id": 2,
+      "class_name": "rider",
+      "map50": 0.9590814603241442,
+      "map50_95": 0.6344170275952317
+    }
+  ],
+  "save_dir": "C:\\Users\\TUYEN PC\\Downloads\\CPVpj\\runs\\detect\\val"
+}
